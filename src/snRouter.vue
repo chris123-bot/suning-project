@@ -46,10 +46,6 @@ export default new VueRouter({
                     component: shopcart,
                 },
                 {
-                    path: "/mine",
-                    component: login,
-                },
-                {
                     path: "/enter",
                     component: mine,
                 },
@@ -70,6 +66,10 @@ export default new VueRouter({
         {
             path: "/register",
             component: register,
+        },
+        {
+            path: "/mine",
+            component: login,
         },
     ],
 });

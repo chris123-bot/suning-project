@@ -12,18 +12,27 @@
         </div>
         <!-- 顶部导航栏 -->
         <div class="topbar" v-show="topBar">
-            <div class="fen">
-                <router-link to="/classify">
-                    <img src="https://image2.suning.cn/uimg/cms/img/157199320847433454.png" />
-                </router-link>
-            </div>
-            <div class="inp">
-                <router-link to="/search">
-                    <input type="text" placeholder="海尔冷柜" />
-                </router-link>
-            </div>
-            <div class="me">
-                <img src="https://image2.suning.cn/uimg/cms/img/157199322108277118.png" />
+            <div class="topbar1">
+                <div class="fen">
+                    <router-link to="/classify">
+                        <img src="https://image2.suning.cn/uimg/cms/img/157199320847433454.png" />
+                    </router-link>
+                </div>
+                <div class="inp">
+                    <router-link to="/search">
+                        <div class="search">
+                            <div class="search1">
+                                <span>&#xe607;</span>
+                            </div>
+                            <div class="search2">
+                                <p>冰柜小型家用</p>
+                            </div>
+                        </div>
+                    </router-link>
+                </div>
+                <div class="me">
+                    <img src="https://image2.suning.cn/uimg/cms/img/157199322108277118.png" />
+                </div>
             </div>
         </div>
 
@@ -50,7 +59,7 @@
                     <img src="../../images/favImg/head-classify.png" alt />
                 </router-link>
                 <div class="fav-head-gif">
-                    <img src="../../images/favImg/head-title.gif" alt />
+                    <img src="https://image3.suning.cn/uimg/cms/img/160568916555113707.gif" alt />
                 </div>
                 <router-link to="/mine" class="denglu" v-if="isLogin==false">
                     <img src="../../images/favImg/denglu.png" alt />
@@ -60,7 +69,14 @@
                 </router-link>
             </div>
             <router-link to="/search" class="fav-head-input">
-                <input type="search" placeholder="中秋悦礼 满199减60" class="search" />
+                <div class="search">
+                    <div class="search1">
+                        <span>&#xe607;</span>
+                    </div>
+                    <div class="search2">
+                        <p>冰柜小型家用</p>
+                    </div>
+                </div>
             </router-link>
         </div>
         <!-- 内容 -->
@@ -78,7 +94,7 @@
                         <img src="../../images/favImg/lunbo3.jpg" alt />
                     </swiper-slide>
                     <swiper-slide class="lunbo-pic">
-                        <img src="../../images/favImg/lunbo4.png" alt />
+                        <img src="../../images/favImg/lunbo4.jpg" alt />
                     </swiper-slide>
                     <swiper-slide class="lunbo-pic">
                         <img src="../../images/favImg/lunbo5.png" alt />
@@ -230,11 +246,11 @@
                     <div class="low-price-area-title">
                         <div class="everyday-title">天天低价</div>
                         <div class="time">
-                            <span>{{h}}</span>
-                            :
-                            <span>{{m}}</span>
-                            :
-                            <span>{{s}}</span>
+                            <span class="shi">{{h}}</span>
+                            <span class="dian">:</span>
+                            <span class="shi">{{m}}</span>
+                            <span class="dian">:</span>
+                            <span class="shi">{{s}}</span>
                         </div>
                     </div>
                     <p>人气好货限时抢</p>
@@ -626,17 +642,27 @@ export default {
             var date = new Date();
             var now = date.getTime();
             //设置截止时间
-            var endDate = new Date("2020-10-15 23:23:23");
+            var endDate = new Date("2020-11-21 23:23:23");
             var end = endDate.getTime();
             //时间差
             var leftTime = end - now;
             //定义变量 d,h,m,s保存倒计时的时间
             if (leftTime >= 0) {
-                this.d = Math.floor(leftTime / 1000 / 60 / 60 / 24);
-                this.h = Math.floor((leftTime / 1000 / 60 / 60) % 24);
-                this.m = Math.floor((leftTime / 1000 / 60) % 60);
-                this.s = Math.floor((leftTime / 1000) % 60);
-                this.sum_h = this.d * 24 + this.h;
+                let h = Math.floor(leftTime / 1000 / 60 / 60);
+                let m = Math.floor((leftTime / 1000 / 60) % 60);
+                let s = Math.floor((leftTime / 1000) % 60);
+                if (h < 10) {
+                    return "0" + h;
+                }
+                if (m < 10) {
+                    return "0" + m;
+                }
+                if (s < 10) {
+                    return "0" + s;
+                }
+                this.h = h;
+                this.m = m;
+                this.s = s;
             }
 
             // console.log(this.s);
@@ -661,6 +687,9 @@ export default {
                 this.topBar = false;
             }
         },
+        btnCha() {
+            this.head = false;
+        },
     },
 
     mounted() {
@@ -673,7 +702,7 @@ export default {
 
     created() {
         let that = this;
-        let url = "http://127.0.0.1:5501/public/data/prolist.json";
+        let url = "http://127.0.0.1:5500/public/data/prolist.json";
         axios.get(url).then(function (response) {
             let result = response.data.proMenu;
             // console.log(result);
@@ -728,6 +757,15 @@ a {
     z-index: 999;
 }
 
+.topbar .topbar1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
 .topbar .fen {
     width: 10%;
     display: flex;
@@ -739,18 +777,37 @@ a {
 }
 
 .topbar .inp {
-    width: 80%;
+    width: 100%;
     flex-grow: 1;
     padding: 0 20px;
 }
 
-.topbar .inp input {
+.topbar .inp .search {
     width: 100%;
-    height: 30px;
-    outline: none;
-    border: none;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    padding: 0 12px;
+    align-items: center;
+    background-color: #fff;
     border-radius: 20px;
-    padding: 0 20px;
+}
+
+.topbar .inp .search .search1 {
+    color: #999;
+    font-size: 16px;
+    padding-right: 15px;
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+
+.topbar .inp .search .search2 {
+    color: #999;
+    font-size: 16px;
+    display: flex;
+    height: 35px;
+    align-items: center;
 }
 
 .topbar .me {
@@ -823,18 +880,32 @@ a {
     height: 50%;
     padding: 0 12px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
 }
-.fav-head-input input {
+
+.fav-head-input .search {
     width: 100%;
-    /* height: 70%; */
-    border: 1px solid #eee;
-    border-radius: 15px;
-    height: 65%;
+    display: flex;
+    flex-direction: row;
+    height: 70%;
     padding: 0 12px;
-    outline: none;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.fav-head-input .search .search1 {
+    color: #999;
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+.fav-head-input .search .search2 {
+    color: #999;
+    font-size: 16px;
 }
 
 /* 内容 */
@@ -978,16 +1049,28 @@ a {
     white-space: nowrap;
 }
 .time {
+    display: flex;
+    flex-direction: row;
     flex-shrink: 0;
     color: #333;
 }
-.time span {
+.time .shi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
     font-size: 12px;
     font-weight: 550;
     background-color: #fc0;
     border-radius: 5px;
     padding: 1px;
 }
+
+.time .dian {
+    color: #999;
+}
+
 .low-price-area p {
     font-size: 14px;
     color: #999;
