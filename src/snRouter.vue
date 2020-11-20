@@ -6,9 +6,9 @@ import mine from "./components/home/mine.vue";
 import rankinglist from "./components/home/ranklist.vue";
 import roblist from "./components/home/roblisting.vue";
 import shopcart from "./components/home/shopcart.vue";
-import prodetail from "./components/home/Prodetail.vue";
+import prodetail from "./components/home/prodetail.vue";
 
-import login from "./components/home/login.vue"; //登录界面
+import login from "./components/home/login.vue";
 import search from "./components/home/search.vue";
 import register from "./components/home/register.vue";
 
