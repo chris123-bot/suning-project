@@ -201,11 +201,13 @@ a {
 }
 /* footer */
 .footer {
-    position: relative;
+    position: fixed;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+    width: 100%;
+    bottom: 5%;
 }
 .footer-p {
     font-size: 14px;

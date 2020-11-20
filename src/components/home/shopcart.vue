@@ -184,7 +184,7 @@ export default {
     },
     created() {
         let that = this;
-        let url = "http://127.0.0.1:5501/public/data/prolist.json";
+        let url = "http://127.0.0.1:5500/public/data/prolist.json";
         axios.get(url).then(function (response) {
             let result = response.data.proMenu;
             that.list = result;
@@ -290,7 +290,7 @@ export default {
         },
         prodel(index) {
             this.proLists.splice(index, 1);
-           
+
             this.$refs.touchBox[index].style = `left:0px`;
         },
         goLogin() {
@@ -326,7 +326,6 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-  
 }
 .shop-cart {
     width: 100%;
@@ -583,7 +582,7 @@ export default {
     height: 7%;
     padding: 0 3%;
     position: fixed;
-    bottom: 7%;
+    bottom: 5%;
 }
 
 .cart-bottom > div:first-child {
