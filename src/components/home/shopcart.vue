@@ -184,7 +184,7 @@ export default {
     },
     created() {
         let that = this;
-        let url = "http://127.0.0.1:5500/public/data/prolist.json";
+        let url = "http://127.0.0.1:5501/public/data/prolist.json";
         axios.get(url).then(function (response) {
             let result = response.data.proMenu;
             that.list = result;
@@ -582,7 +582,7 @@ export default {
     height: 7%;
     padding: 0 3%;
     position: fixed;
-    bottom: 5%;
+    bottom: 7%;
 }
 
 .cart-bottom > div:first-child {

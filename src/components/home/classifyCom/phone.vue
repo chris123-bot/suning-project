@@ -18,7 +18,7 @@ export default {
     props: ["num"],
     created() {
         var that = this;
-        var url = "http://127.0.0.1:5500/public/data/classify.json";
+        var url = "http://127.0.0.1:5501/public/data/classify.json";
         axios
             .get(url)
             .then(function (response) {

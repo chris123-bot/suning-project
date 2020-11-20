@@ -16,7 +16,7 @@
             ],
             "price":["25",".00" ],
             "evalute":"发货迅速，快递速度快，性价比不错，积极解决问题。",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/teaevaImg.jpg",
+           
             "detailImg":[
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/naMQub3jJ62ARI_8Q8asrw.jpg",
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/piU4nqmvzLDiW9rfVjPAyA.jpg",
@@ -41,7 +41,7 @@
             ],
             "price":["42",".90" ],
             "evalute":"送给女朋友的，女朋友说很喜欢",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/sweetEva.jpg",
+           
             "detailImg":[
                 "https://image.suning.cn/uimg/sop/richtext/201007026170049562281860.gif",
                 "https://image.suning.cn/uimg/sop/richtext/755057742480261997403200.gif",
@@ -68,7 +68,7 @@
             ],
             "price":["39",".90" ],
             "evalute":"一直都用清风这个品牌，非常好用",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/jujubeEva.jpg",
+           
             
             "detailImg":[
                 "https://image.suning.cn/uimg/sop/commodity/173001051152966212777252_x.jpg",
@@ -96,7 +96,7 @@
             ],
             "price":["26",".30" ],
             "evalute":"不错，香脆可口，下次还会买",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/appleEva.jpg",
+           
             "detailImg":[
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/VuTFqxEnuJVofvcOyYqwUQ.jpg",
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/78_doIZvVlthYqS2viPzfA.jpg",
@@ -122,7 +122,7 @@
             ],
             "price":["25",".00" ],
             "evalute":"发货迅速，快递速度快，性价比不错，积极解决问题。",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/teaevaImg.jpg",
+           
             "detailImg":[
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/naMQub3jJ62ARI_8Q8asrw.jpg",
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/piU4nqmvzLDiW9rfVjPAyA.jpg",
@@ -147,7 +147,7 @@
             ],
             "price":["42",".90" ],
             "evalute":"送给女朋友的，女朋友说很喜欢",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/sweetEva.jpg",
+            
             "detailImg":[
                 "https://image.suning.cn/uimg/sop/richtext/201007026170049562281860.gif",
                 "https://image.suning.cn/uimg/sop/richtext/755057742480261997403200.gif",
@@ -174,8 +174,7 @@
             ],
             "price":["39",".90" ],
             "evalute":"一直都用清风这个品牌，非常好用",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/jujubeEva.jpg",
-            
+          
             "detailImg":[
                 "https://image.suning.cn/uimg/sop/commodity/173001051152966212777252_x.jpg",
                 "https://image.suning.cn/uimg/sop/commodity/417533220208486916959049_x.jpg",
@@ -202,7 +201,7 @@
             ],
             "price":["26",".30" ],
             "evalute":"不错，香脆可口，下次还会买",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/appleEva.jpg",
+          
             "detailImg":[
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/VuTFqxEnuJVofvcOyYqwUQ.jpg",
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/78_doIZvVlthYqS2viPzfA.jpg",
@@ -228,7 +227,7 @@
             ],
             "price":["25",".00" ],
             "evalute":"发货迅速，快递速度快，性价比不错，积极解决问题。",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/teaevaImg.jpg",
+          
             "detailImg":[
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/naMQub3jJ62ARI_8Q8asrw.jpg",
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/piU4nqmvzLDiW9rfVjPAyA.jpg",
@@ -253,7 +252,7 @@
             ],
             "price":["42",".90" ],
             "evalute":"送给女朋友的，女朋友说很喜欢",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/sweetEva.jpg",
+           
             "detailImg":[
                 "https://image.suning.cn/uimg/sop/richtext/201007026170049562281860.gif",
                 "https://image.suning.cn/uimg/sop/richtext/755057742480261997403200.gif",
@@ -280,8 +279,7 @@
             ],
             "price":["39",".90" ],
             "evalute":"一直都用清风这个品牌，非常好用",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/jujubeEva.jpg",
-            
+           
             "detailImg":[
                 "https://image.suning.cn/uimg/sop/commodity/173001051152966212777252_x.jpg",
                 "https://image.suning.cn/uimg/sop/commodity/417533220208486916959049_x.jpg",
@@ -308,7 +306,7 @@
             ],
             "price":["26",".30" ],
             "evalute":"不错，香脆可口，下次还会买",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/appleEva.jpg",
+            
             "detailImg":[
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/VuTFqxEnuJVofvcOyYqwUQ.jpg",
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/78_doIZvVlthYqS2viPzfA.jpg",
@@ -334,7 +332,7 @@
             ],
             "price":["25",".00" ],
             "evalute":"发货迅速，快递速度快，性价比不错，积极解决问题。",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/teaevaImg.jpg",
+          
             "detailImg":[
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/naMQub3jJ62ARI_8Q8asrw.jpg",
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/piU4nqmvzLDiW9rfVjPAyA.jpg",
@@ -359,7 +357,7 @@
             ],
             "price":["42",".90" ],
             "evalute":"送给女朋友的，女朋友说很喜欢",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/sweetEva.jpg",
+            
             "detailImg":[
                 "https://image.suning.cn/uimg/sop/richtext/201007026170049562281860.gif",
                 "https://image.suning.cn/uimg/sop/richtext/755057742480261997403200.gif",
@@ -386,7 +384,7 @@
             ],
             "price":["39",".90" ],
             "evalute":"一直都用清风这个品牌，非常好用",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/jujubeEva.jpg",
+           
             
             "detailImg":[
                 "https://image.suning.cn/uimg/sop/commodity/173001051152966212777252_x.jpg",
@@ -414,7 +412,7 @@
             ],
             "price":["26",".30" ],
             "evalute":"不错，香脆可口，下次还会买",
-            "evaluteImg":"http://127.0.0.1:5500/src/images/productImg/appleEva.jpg",
+           
             "detailImg":[
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/VuTFqxEnuJVofvcOyYqwUQ.jpg",
                 "https://uimgproxy.suning.cn/uimg1/sop/commodity/78_doIZvVlthYqS2viPzfA.jpg",
@@ -428,7 +426,7 @@
 
     "login":[
         {
-            "user":"123456",
+            "user":"13815831044",
             "password":"111"
         }
     ],

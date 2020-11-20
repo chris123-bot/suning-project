@@ -87,7 +87,7 @@ export default {
                 alert("请输入正确的密码");
                 return;
             }
-            if (phoneNum == 123456 && password == 111) {
+            if (phoneNum == 13815831044 && password == 111) {
                 this.$store.commit("enter");
                 this.$router.push({ path: "/enter" });
             }

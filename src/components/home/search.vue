@@ -12,18 +12,18 @@
         <div class="header-content">
             <div class="header-title">热门搜索</div>
             <div class="hotWord">
-                <div>扫地机器人</div>
-                <div class="f60">满300减120</div>
-                <div>海信国庆放假</div>
-                <div>苹果新品</div>
-                <div class="f60">衣物洗护</div>
-                <div class="f60">0元购5G手机</div>
-                <div>爆款5折抢</div>
-                <div class="f60">手机</div>
-                <div>茅台</div>
-                <div class="f60">冰箱</div>
-                <div>电视</div>
                 <div>口罩</div>
+                <div class="f60">美的狂欢不停</div>
+                <div>加湿器</div>
+                <div>酸奶</div>
+                <div>睡衣</div>
+                <div class="f60">护发素买一送一</div>
+                <div class="f60">洗发水两件五折</div>
+                <div>爱国者手机U盘</div>
+                <div>粉底</div>
+                <div class="f60">蜜饯</div>
+                <div class="f60">资生堂防晒</div>
+                <div>抽纸</div>
             </div>
         </div>
         <div class="useless1"></div>
@@ -34,7 +34,7 @@
 
         <div class="header-content">
             <div class="hotWord">
-                <div>扫地机器人</div>
+                <div>李子园</div>
             </div>
         </div>
     </div>
